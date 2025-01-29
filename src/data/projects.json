@@ -1,74 +1,11 @@
 [
   {
-    "name": "Platformer Game",
-    "description": "A 2D platformer game with jumping, running, and basic enemy AI.",
-    "date": "2023-11-05",
-    "link": "",
-    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Crect x='20' y='80' width='30' height='50' fill='%2300ff00'/%3E%3Crect x='80' y='100' width='30' height='30' fill='%23ff0000'/%3E%3C/svg%3E",
-    "otherInfo": "This game will feature basic platforming mechanics.",
-    "featured": true
-  },
-  {
-    "name": "Chat Application",
-    "description": "A real-time chat application using WebSockets.",
-    "date": "2023-11-06",
-    "link": "",
-    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Cpath d='M20 20h110v80H20z' fill='%2300ffff'/%3E%3Cpath d='M30 30h90v20H30z' fill='%23000000'/%3E%3C/svg%3E",
-    "otherInfo": "This app will allow users to chat in real-time.",
-    "featured": false
-  },
-  {
-    "name": "E-commerce Store",
-    "description": "A basic e-commerce store with product listings and a shopping cart.",
-    "date": "2023-11-07",
-    "link": "",
-    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Crect x='20' y='20' width='110' height='110' fill='%23ff00ff'/%3E%3Crect x='40' y='40' width='70' height='70' fill='%23000000'/%3E%3C/svg%3E",
-    "otherInfo": "This store will have basic e-commerce functionality.",
-    "featured": true
-  },
-  {
-    "name": "Multiplayer Card Game",
-    "description": "A simple multiplayer card game using WebSockets.",
-    "date": "2023-11-08",
-    "link": "",
-    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Crect x='20' y='20' width='40' height='60' fill='%23ffff00'/%3E%3Crect x='90' y='20' width='40' height='60' fill='%23000000'/%3E%3C/svg%3E",
-    "otherInfo": "This game will allow multiple players to play a card game.",
-     "featured": false
-  },
-  {
-    "name": "Task Management App",
-    "description": "A task management app with user authentication and task lists.",
-    "date": "2023-11-09",
-    "link": "",
-    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Crect x='20' y='20' width='110' height='110' fill='%2300ff00'/%3E%3Crect x='40' y='40' width='70' height='70' fill='%23000000'/%3E%3C/svg%3E",
-    "otherInfo": "This app will help users manage their tasks.",
-    "featured": true
-  },
-   {
-    "name": "Cookie Clicker",
-    "description": "A simple cookie clicker game.",
-    "date": "2023-11-10",
-    "link": "",
-     "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Ccircle cx='75' cy='75' r='60' fill='%23ffcc00'/%3E%3C/svg%3E",
-    "otherInfo": "Click to bake cookies!",
-    "featured": true
-  },
-  {
     "name": "Incremental Game",
     "description": "An incremental game with upgrades and prestige.",
     "date": "2023-11-11",
     "link": "",
      "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Crect x='20' y='20' width='110' height='110' fill='%2300ffff'/%3E%3Crect x='40' y='40' width='70' height='70' fill='%23000000'/%3E%3C/svg%3E",
     "otherInfo": "Upgrade your way to the top!",
-    "featured": true
-  },
-  {
-    "name": "Simple Snake Game",
-    "description": "A classic snake game implemented in JavaScript.",
-    "date": "2023-10-26",
-    "link": "/projects/snake-game/index.html",
-    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Ccircle cx='75' cy='75' r='50' fill='%2300ff00'/%3E%3C/svg%3E",
-    "otherInfo": "This is a simple snake game.",
     "featured": false
   },
   {
@@ -90,21 +27,84 @@
     "featured": false
   },
   {
-    "name": "Weather App",
-    "description": "A simple weather application.",
-    "date": "2023-10-29",
-    "link": "/projects/weather-app/index.html",
-    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Ccircle cx='75' cy='75' r='60' fill='%23ffff00'/%3E%3C/svg%3E",
-    "otherInfo": "This is a basic weather app.",
-    "featured": false
-  },
-  {
     "name": "To-Do List",
     "description": "A simple to-do list application.",
     "date": "2023-10-30",
     "link": "/projects/todo-list/index.html",
     "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Crect x='20' y='20' width='110' height='110' fill='%2300ff00'/%3E%3C/svg%3E",
     "otherInfo": "This is a basic to-do list app.",
+    "featured": true
+  },
+  {
+    "name": "Flipper Game",
+    "description": "A simple player clicker bird game using WebSockets.",
+    "date": "2023-11-08",
+    "link": "",
+    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Crect x='20' y='20' width='40' height='60' fill='%23ffff00'/%3E%3Crect x='90' y='20' width='40' height='60' fill='%23000000'/%3E%3C/svg%3E",
+    "otherInfo": "This game will allow multiple players to play a card game.",
+     "featured": true
+  },
+  {
+    "name": "Platformer Game",
+    "description": "A 2D platformer game with jumping, running, and basic enemy AI.",
+    "date": "2023-11-05",
+    "link": "",
+    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Crect x='20' y='80' width='30' height='50' fill='%2300ff00'/%3E%3Crect x='80' y='100' width='30' height='30' fill='%23ff0000'/%3E%3C/svg%3E",
+    "otherInfo": "This game will feature basic platforming mechanics.",
+    "featured": true
+  },
+  {
+    "name": "Chat Application",
+    "description": "A real-time chat application using WebSockets.",
+    "date": "2023-11-06",
+    "link": "",
+    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Cpath d='M20 20h110v80H20z' fill='%2300ffff'/%3E%3Cpath d='M30 30h90v20H30z' fill='%23000000'/%3E%3C/svg%3E",
+    "otherInfo": "This app will allow users to chat in real-time.",
+    "featured": false
+  },
+  {
+    "name": "Weather App",
+    "description": "A simple weather application.",
+    "date": "2023-10-29",
+    "link": "/projects/weather-app/index.html",
+    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Ccircle cx='75' cy='75' r='60' fill='%23ffff00'/%3E%3C/svg%3E",
+    "otherInfo": "This is a basic weather app.",
+    "featured": true
+  },
+  {
+    "name": "E-commerce Store",
+    "description": "A basic e-commerce store with product listings and a shopping cart.",
+    "date": "2023-11-07",
+    "link": "",
+    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Crect x='20' y='20' width='110' height='110' fill='%23ff00ff'/%3E%3Crect x='40' y='40' width='70' height='70' fill='%23000000'/%3E%3C/svg%3E",
+    "otherInfo": "This store will have basic e-commerce functionality.",
+    "featured": false
+  },
+  {
+    "name": "Time Management App",
+    "description": "A task management app with user authentication and task lists.",
+    "date": "2023-11-09",
+    "link": "",
+    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Crect x='20' y='20' width='110' height='110' fill='%2300ff00'/%3E%3Crect x='40' y='40' width='70' height='70' fill='%23000000'/%3E%3C/svg%3E",
+    "otherInfo": "This app will help users manage their tasks.",
+    "featured": true
+  },
+   {
+    "name": "Cookie Clicker",
+    "description": "A simple cookie clicker game.",
+    "date": "2023-11-10",
+    "link": "",
+     "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Ccircle cx='75' cy='75' r='60' fill='%23ffcc00'/%3E%3C/svg%3E",
+    "otherInfo": "Click to bake cookies!",
+    "featured": true
+  },
+  {
+    "name": "Simple Snake Game",
+    "description": "A classic snake game implemented in JavaScript.",
+    "date": "2023-10-26",
+    "link": "/projects/snake-game/index.html",
+    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Ccircle cx='75' cy='75' r='50' fill='%2300ff00'/%3E%3C/svg%3E",
+    "otherInfo": "This is a simple snake game.",
     "featured": false
   },
   {

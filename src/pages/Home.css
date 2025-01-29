@@ -6,14 +6,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
 }
 
 .recent-projects-container {
   overflow-x: auto;
-  margin-bottom: 30px;
-  scrollbar-width: thin;
-  scrollbar-color: #555 #1a0d0d;
+  margin-bottom: 40px;
+  scrollbar-width: none;
 }
 
 .recent-projects-container::-webkit-scrollbar {
@@ -25,7 +23,7 @@
 }
 
 .recent-projects-container::-webkit-scrollbar-thumb {
-  background-color: #555;
+  background-color: #0000003d;
   border-radius: 3px;
 }
 
@@ -35,14 +33,14 @@
   margin: 0;
   display: flex;
   gap: 10px;
-  width: fit-content;
+  width: fit-content(75%);
 }
 
 .recent-project-item {
   background-color: #1a0d0d;
   padding: 10px;
   text-align: left;
-  border-radius: 5px;
+  border-radius: 2px;
   box-shadow: 2px 2px 5px #000000;
   white-space: nowrap;
   display: flex;
@@ -56,7 +54,7 @@
 }
 
 .recent-project-item:hover {
-  background-color: rgba(90, 90, 90, 0.5);
+  background-color: rgba(170, 82, 82, 0.274);
 }
 
 .recent-project-item img {
@@ -84,50 +82,29 @@
     text-align: left;
 }
 
-.view-collection-link {
-  font-size: 1.2em;
-  margin-left: 10px;
-  color: #FFB6C1;
-  font-family: 'Jersey 15', monospace;
-}
-
-.about-challenge {
-  margin-top: 40px;
-  padding: 15px;
-  background-color: #1a0d0d;
-  box-shadow: 2px 2px 5px #000000;
-  margin-bottom: 0;
-  width: 100%;
-  box-sizing: border-box;
-  border: 1px solid rgba(212, 172, 13, 0.3);
-}
-
-.about-challenge p {
-}
-
-.project-box {
+.featured-projects {
   padding: 15px;
   margin-bottom: 30px;
   display: flex;
   align-items: center;
-  background-color: #1a0d0d;
+  background-color: #1a0d0d; /* Taken from .project-box */
   box-shadow: 2px 2px 5px #000000;
   border: 1px solid rgba(212, 172, 13, 0.3);
   transition: background-color 0.3s ease;
   text-align: left;
 }
 
-.project-box:hover {
-  background-color: rgba(90, 90, 90, 0.5);
+.featured-projects:hover {
+  background-color: rgba(197, 105, 105, 0.226); /* Hover effect from .project-box */
 }
 
-.project-box img {
+.featured-projects img {
   max-width: 150px;
   margin-left: 20px;
   border: none;
 }
 
-.project-box .project-details {
+.featured-projects .project-details {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -135,24 +112,16 @@
   min-height: 120px;
 }
 
-.project-box h3 {
-  color: #FFD700;
-  margin-bottom: -5px;
+.featured-projects h3 {
+  color: #FFD700; 
+  margin-top: 10px;
   text-shadow: 1px 1px 2px #000000;
-  font-family: 'Jersey 15', monospace;
+  font-family: 'Jersey 15', monospace; 
   font-size: 1.5em;
   text-align: left;
 }
 
-.project-box p {
-  margin-bottom: 10px;
+.featured-projects p {
+  margin-top: 0px;
 }
 
-.see-all-collections {
-  text-align: right;
-  margin-top: 20px;
-}
-.see-all-collections a {
-  font-family: 'Jersey 15', monospace;
-  font-size: 1.2em;
-}

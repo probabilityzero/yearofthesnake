@@ -32,7 +32,7 @@ function Home() {
       </div>
       <h2 className="section-title">Featured Projects</h2>
       {featuredProjects.map((project) => (
-        <div key={project.name} className="project-box">
+        <div key={project.name} className="featured-projects">
           <div className="project-details">
             <h3>{project.name}</h3>
             <p>{project.description}</p>
@@ -41,9 +41,10 @@ function Home() {
           <img src={project.image} alt={project.name} />
         </div>
       ))}
+      <h3>
       <div className="see-all-collections">
         <Link to="/collections" className="view-collection-link">See All Collections &rarr;</Link>
-      </div>
+      </div></h3>
     </div>
   );
 }

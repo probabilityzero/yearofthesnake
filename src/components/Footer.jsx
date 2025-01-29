@@ -13,24 +13,19 @@ function Footer() {
             The goal is to explore different technologies and improve my skills.
           </p>
         </div>
-        <div className="footer-section">
-          <h4>Contact</h4>
-          <p>
-            <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer" className="contact-link">GitHub</a>
-          </p>
-          <p>
-            <a href="https://t.me/your-telegram" target="_blank" rel="noopener noreferrer" className="contact-link">Telegram</a>
-          </p>
-          <p>
-            <a href="mailto:your-email@example.com" className="contact-link">Email</a>
-          </p>
-        </div>
-        <div className="footer-section">
-          <h4>Links</h4>
-          <p><Link to="/collections" className="contact-link">Project Collections</Link></p>
-        </div>
-        <div className="footer-section">
-          <p>&copy; {new Date().getFullYear()} Year of the Snake. All rights reserved.</p>
+
+        <div className="footer-links-contact">
+          <div className="footer-section">
+            <h4>Links</h4>
+            <p><Link to="/collections">Project Collections</Link></p>
+          </div>
+
+          <div className="footer-section">
+            <h4>Contact</h4>
+            <p><a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+            <p><a href="https://t.me/your-telegram" target="_blank" rel="noopener noreferrer">Telegram</a></p>
+            <p><a href="mailto:your-email@example.com">Email</a></p>
+          </div>
         </div>
       </div>
     </footer>

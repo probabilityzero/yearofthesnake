@@ -15,7 +15,7 @@ function Project() {
     <div className="project-page">
       <div className="project-content">
         <div className="project-details">
-          <h1>{project.name}</h1>
+          <h2>{project.name}</h2>
         <img src={project.image} alt={project.name} className="project-image" />
           <p>{project.description}</p>
           <p>Date: {project.date}</p>
@@ -26,12 +26,12 @@ function Project() {
           </p>
           {project.otherInfo && (
             <div>
-              <h2>Other Information</h2>
+              <h3>Other Information</h3>
               <p>{project.otherInfo}</p>
             </div>
           )}
           <Link to="/" className="back-home-link">
-            &larr; Go Back to Home
+            Go Back to Home
           </Link>
         </div>
       </div>

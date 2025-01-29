@@ -43,23 +43,112 @@ a {
   display: inline-block;
 }
 
-.project-box a:not(.contact-link)::after,
-.recent-project-details a:not(.contact-link)::after,
-.project-page .project-details a:not(.contact-link)::after {
+
+.project-link::after {
   content: ' ↗';
 }
 
-.back-home-link::after {
-  content: ' ←';
+.project-link {
+  font-family: 'Jersey 15', monospace;
 }
+.back-home-link::before {
+  content: '← ';
+}
+
+.back-home-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #FFB6C1;
+  text-decoration: underline;
+  font-family: 'Jersey 15', monospace;
+  font-size: 1.5em;
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.back-home-link:hover {
+  text-decoration: underline;
+}
+
+
 
 .view-collection-link a::after {
   content: ' →';
 }
 
+.view-collection-link {
+  font-size: 1em;
+  color: #FFB6C1;
+  font-family: 'Jersey 15', monospace;
+  font-weight: normal;
+}
+
+
+.see-all-collections {
+  text-align: right;
+  margin-top: 20px;
+}
+.see-all-collections a {
+  font-family: 'Jersey 15', monospace;
+  font-size: 1.2em;
+}
+
+
 a:hover {
   text-decoration: underline;
 }
+
+
+.site-footer {
+  background: #1a0d0d;
+  margin-top: 40px;
+  padding: 25px;
+}
+
+
+.about-challenge {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #1a0d0d;
+  box-shadow: 2px 2px 5px #000000;
+  margin-bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(212, 172, 13, 0.3);
+}
+
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin-bottom: 5px;
+}
+
+.about-section {
+  border: 1px solid rgba(212, 172, 13, 0.3);
+  padding: 15px;
+  box-shadow: 2px 2px 5px #000000;
+  background-color: rgb(255, 0, 0);
+}
+
 
 .site-footer {
   background: linear-gradient(to top, #1a0d0d, #000000);

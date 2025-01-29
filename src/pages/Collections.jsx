@@ -19,7 +19,7 @@ function Collections() {
         </div>
       ))}
       <Link to="/" className="back-home-link">
-        &larr; Go Back to Home
+        Go Back to Home
       </Link>
     </div>
   );
