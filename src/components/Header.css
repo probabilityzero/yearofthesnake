@@ -6,8 +6,9 @@
 
 .chinese-title {
   font-size: 3em;
-  color: #d4ac0d;
+  color: #FFD700;
   text-shadow: 1px 1px 2px #000000;
+  font-family: 'Noto Serif SC', serif;
 }
 
 .chinese-char {
@@ -18,4 +19,5 @@
 .english-title {
   font-size: 1.5em;
   display: block;
+  font-family: 'Jersey 15', monospace;
 }

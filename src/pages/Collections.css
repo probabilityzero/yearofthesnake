@@ -4,13 +4,14 @@
 
 .project-box {
   padding: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
-  background-color: #2a2a2a;
+  background-color: #1a0d0d;
   box-shadow: 2px 2px 5px #000000;
   border: 1px solid rgba(212, 172, 13, 0.3);
   transition: background-color 0.3s ease;
+  text-align: left;
 }
 
 .project-box:hover {
@@ -28,9 +29,12 @@
 }
 
 .project-box h3 {
-  color: #d4ac0d;
-  margin-bottom: 5px;
+  color: #FFD700;
+  margin-bottom: -5px;
   text-shadow: 1px 1px 2px #000000;
+  font-family: 'Jersey 15', monospace;
+  font-size: 1.5em;
+  text-align: left;
 }
 
 .project-box p {
@@ -38,8 +42,8 @@
 }
 
 .section-title {
-  color: #d4ac0d;
-  border-bottom: 1px solid #d4ac0d;
+  color: #FFD700;
+  border-bottom: 2px solid #FFD700;
   padding-bottom: 5px;
   margin-bottom: 20px;
   text-shadow: 1px 1px 2px #000000;
@@ -52,8 +56,10 @@
 .back-home-link {
   display: inline-block;
   margin-top: 20px;
-  color: #40e0d0;
+  color: #FFB6C1;
   text-decoration: underline;
+  font-family: 'Jersey 15', monospace;
+  font-size: 1.2em;
 }
 
 .back-home-link:hover {

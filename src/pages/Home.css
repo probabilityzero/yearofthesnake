@@ -11,9 +11,9 @@
 
 .recent-projects-container {
   overflow-x: auto;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   scrollbar-width: thin;
-  scrollbar-color: #555 #331a1a;
+  scrollbar-color: #555 #1a0d0d;
 }
 
 .recent-projects-container::-webkit-scrollbar {
@@ -21,7 +21,7 @@
 }
 
 .recent-projects-container::-webkit-scrollbar-track {
-  background: #331a1a;
+  background: #1a0d0d;
 }
 
 .recent-projects-container::-webkit-scrollbar-thumb {
@@ -39,9 +39,9 @@
 }
 
 .recent-project-item {
-  background-color: #2a2a2a;
+  background-color: #1a0d0d;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   border-radius: 5px;
   box-shadow: 2px 2px 5px #000000;
   white-space: nowrap;
@@ -76,21 +76,25 @@
 }
 
 .recent-project-details h3 {
-    color: #d4ac0d;
-    margin-bottom: 5px;
+    color: #FFD700;
+    margin-bottom: -5px;
     text-shadow: 1px 1px 2px #000000;
+    font-family: 'Jersey 15', monospace;
+    font-size: 1.5em;
+    text-align: left;
 }
 
 .view-collection-link {
-  font-size: 0.7em;
+  font-size: 1.2em;
   margin-left: 10px;
-  color: #40e0d0;
+  color: #FFB6C1;
+  font-family: 'Jersey 15', monospace;
 }
 
 .about-challenge {
   margin-top: 40px;
   padding: 15px;
-  background-color: #2a2a2a;
+  background-color: #1a0d0d;
   box-shadow: 2px 2px 5px #000000;
   margin-bottom: 0;
   width: 100%;
@@ -103,13 +107,14 @@
 
 .project-box {
   padding: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
-  background-color: #2a2a2a;
+  background-color: #1a0d0d;
   box-shadow: 2px 2px 5px #000000;
   border: 1px solid rgba(212, 172, 13, 0.3);
   transition: background-color 0.3s ease;
+  text-align: left;
 }
 
 .project-box:hover {
@@ -131,9 +136,12 @@
 }
 
 .project-box h3 {
-  color: #d4ac0d;
-  margin-bottom: 5px;
+  color: #FFD700;
+  margin-bottom: -5px;
   text-shadow: 1px 1px 2px #000000;
+  font-family: 'Jersey 15', monospace;
+  font-size: 1.5em;
+  text-align: left;
 }
 
 .project-box p {
@@ -143,4 +151,8 @@
 .see-all-collections {
   text-align: right;
   margin-top: 20px;
+}
+.see-all-collections a {
+  font-family: 'Jersey 15', monospace;
+  font-size: 1.2em;
 }
