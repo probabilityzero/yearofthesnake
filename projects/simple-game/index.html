@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Game</title>
+    <style>
+        body { font-family: monospace; background-color: #1a1a1a; color: #f0f0f0; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .game-container { border: 2px solid #00ff00; padding: 20px; background-color: #2a2a2a; text-align: center; }
+        button { padding: 10px; border: 1px solid #00ff00; background-color: #333; color: #f0f0f0; cursor: pointer; }
+        button:hover { background-color: #444; }
+        #game-message { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <button onclick="playGame()">Play Game</button>
+        <div id="game-message"></div>
+    </div>
+    <script>
+        function playGame() {
+            const gameMessageDiv = document.getElementById('game-message');
+            const randomNumber = Math.random();
+            if (randomNumber > 0.5) {
+                gameMessageDiv.textContent = 'You Win!';
+            } else {
+                gameMessageDiv.textContent = 'You Lose!';
+            }
+        }
+    </script>
+</body>
+</html>
