@@ -13,16 +13,18 @@ body {
     }
 
     h1 {
-      color: #00ff00;
+      color: #ffcc00;
       text-align: center;
       margin-bottom: 20px;
+      text-shadow: 2px 2px 4px #000000;
     }
 
     h2 {
-      color: #00ff00;
-      border-bottom: 1px solid #00ff00;
+      color: #ffcc00;
+      border-bottom: 1px solid #ffcc00;
       padding-bottom: 5px;
       margin-bottom: 15px;
+      text-shadow: 1px 1px 2px #000000;
     }
 
     .project-box {
@@ -31,12 +33,14 @@ body {
       display: flex;
       align-items: center;
       background-color: #2a2a2a;
+      border: 1px solid #ffcc00;
+      box-shadow: 2px 2px 5px #000000;
     }
 
     .project-box img {
       max-width: 150px;
       margin-left: 20px;
-      border: 1px solid #00ff00;
+      border: 1px solid #ffcc00;
     }
 
     .project-box .project-details {
@@ -44,8 +48,9 @@ body {
     }
 
     .project-box h3 {
-      color: #00ff00;
+      color: #ffcc00;
       margin-bottom: 5px;
+      text-shadow: 1px 1px 2px #000000;
     }
 
     .project-box p {

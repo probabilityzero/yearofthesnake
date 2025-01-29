@@ -1,11 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import projectsData from '../data/projects.json';
+import './Collections.css';
 
 function Collections() {
   return (
-    <div>
-      <h1>Project Collections</h1>
+    <div className="collections-container">
+      <h1 className="chinese-title">
+        <span className="chinese-char">蛇</span>
+        <span className="english-title">Year of the Snake</span>
+      </h1>
+      <h2 className="section-title">Project Collections</h2>
       {projectsData.map((project) => (
         <div key={project.name} className="project-box">
           <div className="project-details">
