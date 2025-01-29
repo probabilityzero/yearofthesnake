@@ -9,14 +9,10 @@ function Home() {
 
   return (
     <div className="home-container">
-      <h1 className="chinese-title">
-        <span className="chinese-char">蛇</span>
-        <span className="english-title">Year of the Snake</span>
-      </h1>
       <div className="section-header">
         <h2 className="section-title">Recent Projects
           <div className="view-collection-link">
-            <Link to="/collections">View the collection →</Link>
+            <Link to="/collections">See All Collections</Link>
           </div>
         </h2>
       </div>
@@ -27,7 +23,6 @@ function Home() {
               <div className="recent-project-details">
                 <h3>{project.name}</h3>
                 <p>{project.description}</p>
-                <p>Date: {project.date}</p>
                 <Link to={`/project/${project.name}`} className="project-link">View Project</Link>
               </div>
               <img src={project.image} alt={project.name} />
@@ -46,16 +41,9 @@ function Home() {
           <img src={project.image} alt={project.name} />
         </div>
       ))}
-      <div className="about-challenge">
-        <h2 className="section-title">About the Challenge</h2>
-        <p>
-          This is a personal challenge to create a variety of projects during the year of the snake.
-          The goal is to explore different technologies and improve my skills.
-        </p>
+      <div className="see-all-collections">
+        <Link to="/collections" className="view-collection-link">See All Collections &rarr;</Link>
       </div>
-      <footer className="contact-me">
-        <p>Contact Me: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-      </footer>
     </div>
   );
 }

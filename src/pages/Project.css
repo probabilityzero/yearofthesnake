@@ -1,0 +1,31 @@
+.project-page {
+  padding: 20px;
+}
+
+.project-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.project-details {
+  flex: 1;
+}
+
+.project-image {
+  max-width: 300px;
+  align-self: flex-start;
+  margin-left: 20px;
+  border: none;
+}
+
+.back-home-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #40e0d0;
+  text-decoration: underline;
+}
+
+.back-home-link:hover {
+  text-decoration: underline;
+}

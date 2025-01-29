@@ -1,0 +1,36 @@
+.site-footer {
+  background: #1a0d0d;
+  color: #f0e6d2;
+  margin-top: 40px;
+  padding: 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  color: #d4ac0d;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin-bottom: 5px;
+}
+
+.about-section {
+  border: 1px solid rgba(212, 172, 13, 0.3);
+  padding: 15px;
+  box-shadow: 2px 2px 5px #000000;
+  background-color: rgba(70, 70, 70, 0.4);
+}

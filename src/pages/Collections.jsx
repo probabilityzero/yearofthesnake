@@ -6,10 +6,6 @@ import './Collections.css';
 function Collections() {
   return (
     <div className="collections-container">
-      <h1 className="chinese-title">
-        <span className="chinese-char">蛇</span>
-        <span className="english-title">Year of the Snake</span>
-      </h1>
       <h2 className="section-title">Project Collections</h2>
       {projectsData.map((project) => (
         <div key={project.name} className="project-box">
@@ -22,6 +18,9 @@ function Collections() {
           <img src={project.image} alt={project.name} />
         </div>
       ))}
+      <Link to="/" className="back-home-link">
+        &larr; Go Back to Home
+      </Link>
     </div>
   );
 }
