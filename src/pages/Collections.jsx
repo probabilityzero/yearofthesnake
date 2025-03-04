@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import projectsData from '../data/projects.json';
-import './Collections.css';
+import '../index.css';
 
 function Collections() {
   return (
