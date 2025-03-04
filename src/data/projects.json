@@ -13,7 +13,7 @@
     "description": "An interactive n-body simulator to visualize the dynamic interactions of celestial bodies under the gravitational forces",
     "date": "2025-02-28",
     "link": "https://xvxav.github.io/astronomy/n-body/",
-    "image": "../assets/images/n-body.png",
+    "image": "https://xvxav.github.io/astronomy/assets/images/n-body.png",
     "otherInfo": "An interactive n-body simulator to visualize the dynamic interactions of celestial bodies under the gravitational forces",
     "featured": true
   },
@@ -76,7 +76,7 @@
     "description": "An interactive 3D representation of the solar system",
     "date": "2023-11-07",
     "link": "https://xvxav.github.io/astronomy/solar-system/",
-    "image": "../assets/images/solar-system.jpg",
+    "image": "https://xvxav.github.io/astronomy/assets/images/solar-system.jpg",
     "otherInfo": "A 3D visualization of the solar system uses Three.js for rendering realistic celestial objects, including planets, moons, and the sun, with accurate textures, proportions, and orbital paths. Interactions like displaying details about objects and toggling views are powered by jQuery.",
     "featured": true
   },
