@@ -43,6 +43,13 @@ a {
   display: inline-block;
 }
 
+.project-detail-link::after {
+  content: ' →';
+}
+
+.project-detail-link {
+  font-family: 'Jersey 15', monospace;
+}
 
 .project-link::after {
   content: ' ↗';
@@ -51,6 +58,7 @@ a {
 .project-link {
   font-family: 'Jersey 15', monospace;
 }
+
 .back-home-link::before {
   content: '← ';
 }

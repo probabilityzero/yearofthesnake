@@ -20,26 +20,30 @@ function Home() {
         <ul className="recent-projects-list">
           {recentProjects.map((project) => (
             <li key={project.name} className="recent-project-item">
+             <Link to={`/project/${project.name}`}> 
               <div className="recent-project-details">
                 <h3>{project.name}</h3>
                 <p>{project.description}</p>
-                <Link to={`/project/${project.name}`} className="project-link">View Project</Link>
+                <Link to={`/project/${project.name}`} className="project-detail-link">Project details</Link>
               </div>
               <img src={project.image} alt={project.name} /> 
+              </Link>
             </li>
           ))}
         </ul>
       </div>
       <h2 className="section-title">Featured Projects</h2>
       {featuredProjects.map((project) => (
+        <Link to={`/project/${project.name}`}> 
         <div key={project.name} className="featured-projects">
           <div className="project-details">
             <h3>{project.name}</h3>
             <p>{project.description}</p>
-            <Link to={`/project/${project.name}`} className="project-link">View Project</Link>
+            <Link to={`/project/${project.name}`} className="project-detail-link">Project details</Link>
           </div>
           <img src={project.image} alt={project.name} />
         </div>
+        </Link>
       ))}
       <h3>
       <div className="see-all-collections">
