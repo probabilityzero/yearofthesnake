@@ -21,10 +21,8 @@ function Home() {
           {recentProjects.map((project) => (
             <li key={project.name} className="recent-project-item">
               <div className="recent-project-details">
-              <Link to={`/project/${project.name}`}> 
                 <h3>{project.name}</h3>
                 <p>{project.description}</p>
-                </Link>
                 <Link to={`/project/${project.name}`} className="project-detail-link">Project details</Link>
               </div>
               <img src={project.image} alt={project.name} /> 
@@ -36,10 +34,8 @@ function Home() {
       {featuredProjects.map((project) => (
         <div key={project.name} className="featured-projects">
           <div className="project-details">
-          <Link to={`/project/${project.name}`}> 
             <h3>{project.name}</h3>
             <p>{project.description}</p>
-            </Link>
             <Link to={`/project/${project.name}`} className="project-detail-link">Project details</Link>
           </div>
           <img src={project.image} alt={project.name} />

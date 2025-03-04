@@ -13,7 +13,7 @@ function Collections() {
             <h3>{project.name}</h3>
             <p>{project.description}</p>
             <p>Date: {project.date}</p>
-             <Link to={`/project/${project.name}`} className="project-link">View Project</Link>
+             <Link to={`/project/${project.name}`} className="project-detail-link">View Project</Link>
           </div>
           <img src={project.image} alt={project.name} />
         </div>
