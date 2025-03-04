@@ -18,8 +18,8 @@
     "featured": false
   },
   {
-    "name": "N-Body Simulator",
-    "description": "An interactive n-body simulator to visualize the dynamic interactions of celestial bodies under the gravitational forces",
+    "name": "Nth-Body Solution",
+    "description": "An interactive n-body simulator under the gravitational forces",
     "date": "2025-02-28",
     "link": "https://xvxav.github.io/astronomy/n-body/",
     "image": "https://xvxav.github.io/astronomy/assets/images/n-body.png",
