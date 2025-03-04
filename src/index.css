@@ -87,7 +87,7 @@ a {
 }
 
 .view-collection-link {
-  font-size: 1em;
+  font-size: 1.4em;
   color: #FFB6C1;
   font-family: 'Jersey 15', monospace;
   font-weight: normal;
@@ -382,3 +382,77 @@ a:hover {
   width: 100%;
 }
 
+.site-header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.chinese-title {
+  font-size: 3em;
+  color: linear-gradient(to right, #FFD700, #fff5e6);
+  text-shadow: 1px 1px 2px #000000;
+  font-family: 'Noto Serif SC', serif;
+}
+
+.chinese-char {
+  font-size: 3em;
+  margin-right: 10px;
+}
+
+.english-title {
+  font-size: 1.5em;
+  display: block;
+  font-family: 'Jersey 15', monospace;
+  font-weight: normal;
+}
+
+.site-footer {
+  background: linear-gradient(to bottom, #1a0d0d, #000000); 
+  margin-top: 40px;
+  padding: 25px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 0 40px;
+}
+
+.footer-links-contact {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  gap: 40px;
+  justify-content: end;
+  float: right;
+
+}
+
+/* Footer Sections */
+.footer-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footer-section h4 {
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin-bottom: 5px;
+}
+
+/* Links */
+.site-footer a {
+  color: #FFB6C1;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
