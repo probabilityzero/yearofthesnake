@@ -9,13 +9,13 @@
     "featured": false
   },
   {
-    "name": "Calculator App",
-    "description": "A simple calculator application.",
-    "date": "2023-10-27",
-    "link": "/projects/calculator-app/index.html",
-    "image": "data:image/svg+xml,%3Csvg width='150' height='150' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='100%25' height='100%25' fill='%23333'/%3E%3Crect x='25' y='25' width='100' height='100' fill='%2300ffff'/%3E%3C/svg%3E",
-    "otherInfo": "This is a basic calculator app.",
-    "featured": false
+    "name": "N-Body Simulator",
+    "description": "An interactive n-body simulator to visualize the dynamic interactions of celestial bodies under the gravitational forces.",
+    "date": "2025-02-28",
+    "link": "https://xvxav.github.io/astronomy/n-body/",
+    "image": "../assets/images/n-body.png",
+    "otherInfo": "An interactive n-body simulator to visualize the dynamic interactions of celestial bodies under the gravitational forces",
+    "featured": true
   },
     {
     "name": "Text Editor",

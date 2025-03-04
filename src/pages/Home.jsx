@@ -25,7 +25,7 @@ function Home() {
                 <p>{project.description}</p>
                 <Link to={`/project/${project.name}`} className="project-link">View Project</Link>
               </div>
-              <img src={project.image} alt={project.name} />
+              <img src={project.image} alt={project.name} /> 
             </li>
           ))}
         </ul>
