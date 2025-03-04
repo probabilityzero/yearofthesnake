@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import projectsData from '../data/projects.json';
-import './Project.css';
+import '../index.css';
 
 function Project() {
   const { projectName } = useParams();
@@ -26,11 +26,11 @@ function Project() {
           </p>
           {project.otherInfo && (
             <div>
-              <h3>Other Information</h3>
+              <h4>More Information</h4>
               <p>{project.otherInfo}</p>
             </div>
           )}
-          <Link to="/" className="back-home-link">
+          <Link to="/collections" className="back-home-link">
             Go Back to Home
           </Link>
         </div>
